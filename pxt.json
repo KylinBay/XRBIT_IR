@@ -1,0 +1,20 @@
+{
+    "name": "XRBIT_IR",
+    "version": "1.0.5",
+    "description": "Extension for XRGEEK micro:bit IR receiver module",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "shims.d.ts",
+        "enums.d.ts",
+        "ir.cpp",
+        "ReceiverIR.cpp",
+        "ReceiverIR.h",
+        "RemoteIR.h",
+        "TransmitterIR.cpp",
+        "TransmitterIR.h"
+    ],
+    "public": true
+}
